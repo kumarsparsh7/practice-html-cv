@@ -1,0 +1,128 @@
+<!-- My HTML CodeBook -->
+
+<h1>This is a level 1 heading created using the h1 tag</h1>
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+
+<!-- Line Break - To put a break in between lines -->
+<br>
+
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+<!-- Horizontal row or horizontal line -->
+<hr>
+<br
+<!-- hr with attributes -->
+<hr size='5' color='red'>
+<br>
+<hr size='8' noshade>
+<br>
+<hr size='4' color='black' width='250' align='right'>
+
+<meta charset="utf-8">
+<!-- Meta element gives extra metadata or associated data to your HTML document-->
+ <!-- charset - This attribute declares the page's character encoding. We're telling the browser that all the text inside our webpage
+is encoded using UTF-8 encoding system. This tells browser to render your website with correct encoding -->
+
+<meta name="description" content="This is a web page">
+<!--SEs look for meta tags in HTML to know what the website is about & how to display it in their search index.
+In this case, Google will display "This is a web page" below your website in the search index-->
+
+<p></p>
+<!-- p tag formats text to a paragraph-->
+
+Formatting -
+<em></em> > <i></i>
+<strong></strong> > <b></b>
+
+Listing -
+
+Unordered listing -
+<ul>List elements</ul>
+
+Ordered listing -
+<ol>List elements</ol>
+<!-- Attributes - type, start ->
+<ol type="i"></ol>
+<ol start="7"></ol>
+
+List elements -
+<li>Item name</li>
+
+Image -
+<img src="URL" align="top/middle/bottom/left/right" alt="alternative text description of the image - Text to be printed when image is not available, SE finds this text to locate your image">
+
+Hyperlink reference -
+<a href="Link destination">Link Text</a>
+
+Table -
+<table>
+  <!-- defines following data to be in tabular form -->
+  <thead>
+    <!-- Heading of the columns -->
+    <tr>
+      <td>Name</td>
+      <td>Age</td>
+    </tr>
+  </thead>
+  <!-- For data, we've to input row wise (also in the case of head) -->
+  <tr>
+    <!-- Table row -->
+    <td>Sparsh</td> <!-- Table data, i.e., data in a cell -->
+    <td>21</td>
+  </tr>
+</table>
+
+Table attributes -
+border="width of border in number"
+cellspacing="spacing between two cells in numerical/percentage value"
+
+Forms in HTML -
+<form action="mailto:myemail@email.com" method="post"></form>
+<!-- action attribute directs to the given link when pressed 'submit' button ; its default value is 'index.html' -->
+
+<label></label>
+<!-- The <label> represents a caption for an item in a user interface. It is the label for each form question/entry -->
+
+<input></input>
+<!-- <input> is responsible for input from user -->
+
+input attributes -
+type -> type of input
+name -> input's name, to identify the input in the data submitted with the form's data
+value -> input's current value
+
+input types ->
+The available types are as follows:
+"button": A push button with no default behavior.
+"checkbox": A check box allowing single values to be selected/deselected.
+"color": HTML5 A control for specifying a color. A color picker's UI has no required features other than accepting simple colors as text (more info).
+"date": HTML5 A control for entering a date (year, month, and day, with no time).
+"datetime-local": HTML5 A control for entering a date and time, with no time zone.
+"email": HTML5 A field for editing an e-mail address.
+"file": A control that lets the user select a file. Use the accept attribute to define the types of files that the control can select.
+"hidden": A control that is not displayed but whose value is submitted to the server.
+"image": A graphical submit button. You must use the src attribute to define the source of the image and the alt attribute to define alternative text. You can use the height and width attributes to define the size of the image in pixels.
+"month": HTML5 A control for entering a month and year, with no time zone.
+"number": HTML5 A control for entering a number.
+"password": A single-line text field whose value is obscured. Use the maxlength and minlength attributes to specify the maximum length of the value that can be entered.
+"radio": A radio button, allowing a single value to be selected out of multiple choices.
+"range": HTML5 A control for entering a number whose exact value is not important.
+"reset": A button that resets the contents of the form to default values.
+"search": HTML5 A single-line text field for entering search strings. Line-breaks are automatically removed from the input value.
+"submit": A button that submits the form.
+"tel": HTML5 A control for entering a telephone number.
+"text": A single-line text field. Line-breaks are automatically removed from the input value.
+"time": HTML5 A control for entering a time value with no time zone.
+"url": HTML5 A field for entering a URL.
+"week": HTML5 A control for entering a date consisting of a week-year number and a week number with no time zone.
+
+Adding a text area :
+<textarea name="your message" rows="10" cols="20"></textarea>
+attributes -
+name = name of the control
+rows = height of text box
+cols = width of text box
