@@ -22,7 +22,7 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-This is a sample document.
+
 [Link](url) and ![Image](src)
 ```
 
